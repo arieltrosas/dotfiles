@@ -1,0 +1,5 @@
+bash/.bashrc ~/.bashrc
+git/.gitconfig ~/.gitconfig
+lvim/config.lua ~/.config/lvim/config.lua
+zsh/.zshenv ~/.zshenv
+zsh/.zshrc ~/.zshrc
