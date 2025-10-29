@@ -23,7 +23,9 @@ while IFS= read -r line; do
     [[ -z "$line" || "$line" =~ ^# ]] && continue
 
     src=$(echo "$line" | awk '{print $1}')
+    src=${src/#\~/$HOME}
     dest=$(echo "$line" | awk '{print $2}')
+    dest=${dest/#\~/$HOME}
 
     mkdir -p "$(dirname "$dest")"
 
