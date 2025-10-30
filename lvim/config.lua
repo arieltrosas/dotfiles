@@ -35,6 +35,8 @@ lvim.keys.normal_mode["<S-Tab>"] = ":BufferLineCyclePrev<CR>"
 lvim.keys.normal_mode["<leader>x"] = ":BufferKill<CR>"
 lvim.keys.normal_mode["<A-i>"] = ":ToggleTerm direction=float<CR>"
 lvim.keys.term_mode["<A-i>"] = "<C-\\><C-n>:ToggleTerm direction=float<CR>"
+lvim.keys.normal_mode["<leader>ss"] = "/"
+lvim.keys.normal_mode["<Esc>"] = ":nohlsearch<CR>"
 
 -- nvim-tree
 

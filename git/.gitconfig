@@ -4,8 +4,6 @@
 
 [core]
     editor = lvim
-    autocrlf = input
-    safecrlf = true
 
 [color]
     ui = auto
