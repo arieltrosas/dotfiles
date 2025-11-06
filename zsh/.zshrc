@@ -106,6 +106,8 @@ export EDITOR="lvim"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias python=python3
+alias cl-copy="xclip -selection primary"
+alias cl-paste="xclip -selection primary -o"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
