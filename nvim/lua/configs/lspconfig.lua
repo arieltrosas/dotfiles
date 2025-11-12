@@ -3,10 +3,10 @@ require("nvchad.configs.lspconfig").defaults()
 local servers = {
     "clangd",                -- C and C++
     "cmake",                 -- CMake
-    "pylsp",                 -- Python (or use "pyright" for a more modern option)
     "lua_ls",                -- Lua (new name for lua-language-server)
     "html",                  -- HTML
-    "cssls",                 -- CSS
+    "cssls",                 -- CSS,
+    "pyright"                -- python
 }
 vim.lsp.enable(servers)
 

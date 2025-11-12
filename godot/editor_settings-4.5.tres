@@ -4,8 +4,9 @@
 keycode = 4194326
 
 [resource]
-interface/theme/base_color = Color(0.21, 0.24, 0.29, 1)
-interface/theme/accent_color = Color(0.44, 0.73, 0.98, 1)
+interface/theme/preset = "Custom"
+interface/theme/base_color = Color(0.15686275, 0.15686275, 0.15686275, 1)
+interface/theme/accent_color = Color(0.92156863, 0.85882354, 0.69803923, 1)
 interface/theme/contrast = 0.3
 text_editor/theme/color_theme = "gruvbox-dark"
 text_editor/theme/highlighting/symbol_color = Color(0.9843137, 0.94509804, 0.78039217, 1)
