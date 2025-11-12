@@ -3,3 +3,4 @@ git/.gitconfig ~/.gitconfig
 nvim ~/.config/nvim
 zsh/.zshenv ~/.zshenv
 zsh/.zshrc ~/.zshrc
+godot ~/.config/godot
